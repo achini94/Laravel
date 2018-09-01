@@ -11,23 +11,25 @@
 |
 */
 
-//Route::get('/', function () {
-  //  return view('welcome');
-//});
+Route::get('/', function () {
+    return view('new');
+});
 
 //route::get('abc',function(){
  //   return "welcome";
 //});
 
 //Route::get('/new', function () {
-  //  return view('new');
+   // return view('new');
 //});
 
-route::view('/new','new');
+//route::view('/new','new');
 
 //route::get('new/{variable}',function($variable){
   //  return $variable;
 //});
 
-route::redirect('/old','/new',301);
+//route::redirect('/old','/new',301);
+
+//Route::get('/','UserController@show');
 
